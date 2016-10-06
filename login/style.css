@@ -1,0 +1,141 @@
+/*css reset*/
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul, img {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+
+}
+
+.logoContainer {
+    clear: both;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+img {
+    position: relative;
+    right: 50%;
+    max-width: 100%;
+    width: 3.625rem;
+    height: 4.175rem;
+    top: 4.625rem;
+
+}
+
+.inputContainer1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10.7rem;
+    margin: auto;
+    text-align: center;
+    width: 12.6rem;
+
+}
+
+.inputContainer2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13.5rem;
+    margin: auto;
+    text-align: center;
+    width: 12.6rem;
+
+}
+
+.inputContainer3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16.5rem;
+    margin: auto;
+    text-align: center;
+    width: 12.6rem;
+}
+
+#username {
+    font-size: 0.65rem;
+    width: 12.1rem;
+    height: 1.3rem;
+    border: 0rem;
+    border-bottom: solid 0.055rem;
+    border-bottom-color: #b7b7b7;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+#pwd {
+    font-size: 0.65rem;
+    width: 6.5rem;
+    height: 1.3rem;
+    border: 0rem;
+    padding-left: 0.25rem;
+
+}
+
+#access {
+    font-size: 0.65rem;
+    width: 5.6rem;
+    height: 1.3rem;
+    color: #4cd964;
+    text-align: center;
+    padding-left: 1.7rem;
+}
+
+hr {
+    margin-top: 7px;
+    *margin: 0;
+    border: 0;
+    color: #b7b7b7;
+    background-color: #b7b7b7;
+    height: 0.055rem
+}
+
+#nickname {
+    font-size: 0.65rem;
+    width: 12.1rem;
+    height: 1.3rem;
+    border: 0rem;
+    border-bottom: solid 0.055rem;
+    border-bottom-color: #b7b7b7;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+
+}
+
+input:focus {
+    color: #4cd964;
+    text-shadow: 0px 0px 0px #333333;
+    -webkit-text-fill-color: transparent;
+    border-bottom-color: #4cd964;
+}
+
+::-webkit-input-placeholder {
+    color: #b7b7b7;
+    text-shadow: none;
+    -webkit-text-fill-color: initial;
+}
+
+#login {
+    font-size: 0.71rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 19.1rem;
+    margin: auto;
+    width: 13.6rem;
+    height: 2.0rem;
+    background-color: #4cd964;
+    color: #ffffff;
+    border-radius: 0.4rem;
+    border: 0rem;
+}
+
+body {
+    background-color: #ffffff;
+}
